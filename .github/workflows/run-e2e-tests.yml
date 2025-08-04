@@ -3,15 +3,12 @@ name: Run E2E Tests
 on: [pull_request]
 
 jobs:
-  name: Run E2E Tests
-  runs-on: ubuntu-latest
-
-  steps:
-    name: Run Unit Tests
+  run-e2e-tests:
+    name: Run E2E Tests
     runs-on: ubuntu-latest
 
     services:
-      api-solid-pg:
+      postgresql:
         image: bitnami/postgresql
         ports:
           - 5432:5432
