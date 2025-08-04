@@ -1,6 +1,6 @@
 # App
 
-Gympass style app.
+Gympass style app, uma aplicação para check-ins em academias que utiliza alguns conceitos do SOLID, Design Patterns, Docker para iniciar o banco de dados, JWT e Refresh Token, RBAC, alé de outros conceitos.
 
 ## RFs (Requisitos Funcionais)
 
